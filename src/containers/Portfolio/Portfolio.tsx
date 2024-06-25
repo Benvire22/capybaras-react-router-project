@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <div className="row mb-5">
       <h1 className="text-warning my-4 mb-5">Мои прошлые работы</h1>
-      <div className="col-12 d-flex justify-content-center gap-3 mb-5">
+      <div className="col-12 d-flex justify-content-center gap-4 mb-5">
         <LinkCard path="find-item-game" info="Find item game" img={findItemImg}/>
         <LinkCard path="modals" info="Custom Modals and alerts components" img={modalsImg}/>
         <LinkCard path="users-list" info="Add users container" img={usersListImg}/>

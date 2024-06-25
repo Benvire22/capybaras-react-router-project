@@ -1,12 +1,12 @@
 import {Route, Routes} from 'react-router-dom';
 import Home from './containers/Home/Home';
 import About from './containers/About/About';
-import Contacts from './containers/Contacts/Contacts';
 import Toolbar from './components/Toolbar/Toolbar';
+import Contacts from './containers/Contacts/Contacts';
 import Portfolio from './containers/Portfolio/Portfolio';
 import FindItemGame from './containers/FindItemGame/FindItemGame';
-import ModalsContainer from './containers/ModalsContainer/ModalsContainer';
 import UsersContainer from './containers/UsersContainer/UsersContainer';
+import ModalsContainer from './containers/ModalsContainer/ModalsContainer';
 
 const App = () => {
   return (

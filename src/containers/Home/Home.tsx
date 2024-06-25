@@ -1,4 +1,5 @@
 import capybaraPic from '../../assets/img/capybara-pic-1.jpg';
+import capybaraPic2 from '../../assets/img/capybara-pic-3.jpeg';
 import {useNavigate} from 'react-router-dom';
 
 const Home = () => {
@@ -8,11 +9,10 @@ const Home = () => {
 
   return (
     <>
-      <article className="row d-flex justify-content-center align-items-center mb-4">
+      <article className="row d-flex justify-content-center align-items-center my-5 fs-5">
         <h1 className="text-warning">Capybaras</h1>
-        <div className="col-3"><img src={capybaraPic} className={imageStyle} alt="Capybara"/></div>
-        <div className="col-3"><img src={capybaraPic} className={imageStyle} alt="Capybara"/></div>
-        <div className="col-3"><img src={capybaraPic} className={imageStyle} alt="Capybara"/></div>
+        <div className="col-4"><img src={capybaraPic} className={imageStyle} alt="Capybara"/></div>
+        <div className="col-4"><img src={capybaraPic2} className={imageStyle} alt="Capybara"/></div>
         <h3 className="my-4 text-warning">Capybaras</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut corporis dolor doloremque
           excepturi
@@ -32,7 +32,7 @@ const Home = () => {
           veritatis?
           Accusantium aperiam beatae, culpa cumque eius enim facere inventore ipsa magni possimus quaerat quod
           ratione rerum similique sit velit voluptatibus:</p>
-        <ul className="col-10 fs-5 text-warning">
+        <ul className="col-10 fs-5 fw-bold text-warning">
           <li>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</li>
           <li>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
             assumenda corporis debitis deserunt eum id inventore nemo omnis porro voluptas..
