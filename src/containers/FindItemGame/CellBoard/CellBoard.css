@@ -1,0 +1,12 @@
+.CellBoard {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  border: 2px solid #a49999;
+  border-radius: 10px;
+  padding: 20px 0;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
