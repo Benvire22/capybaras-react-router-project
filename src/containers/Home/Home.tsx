@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <article className="row d-flex justify-content-center align-items-center my-5 fs-5">
-        <h1 className="text-warning">Capybaras</h1>
+        <h1 className="text-warning mb-4">Капибары</h1>
         <div className="col-4"><img src={capybaraPic} className={imageStyle} alt="Capybara"/></div>
         <div className="col-4"><img src={capybaraPic2} className={imageStyle} alt="Capybara"/></div>
         <h3 className="my-4 text-warning">Capybaras</h3>

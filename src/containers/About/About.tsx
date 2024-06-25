@@ -9,7 +9,7 @@ const About = () => {
   const imgStyle = 'col-3 rounded border border-warning';
   return (
     <>
-      <section className="row fs-5 mb-3">
+      <section className="row fs-5 my-5">
         <h1 className="text-warning">Кто такая капибара?</h1>
         <div className="d-flex justify-content-center gap-5 my-4">
           <img src={capybaraPhoto1} alt="Капибары на лужайке" className={imgStyle}/>

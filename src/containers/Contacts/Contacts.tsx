@@ -31,16 +31,15 @@ const Contacts = () => {
     });
   };
 
-
   return (
     <>
-      <div className="row">
-        <h1 className="text-warning my-4">Контакты</h1>
+      <div className="row mt-5">
+        <h1 className="text-warning mb-4">Контакты</h1>
         <p className="fs-4 mb-4">Вы можете связаться с нами следующими способами:</p>
         <ul className="fs-5 ms-5 text-primary">
-          <li className="mb-2">Телефон: +7 (XXX) XXX-XX-XX</li>
+          <li className="mb-2">Телефон: +996 (XXX) XXX-XXX</li>
           <li className="mb-2">Email: info@example.com</li>
-          <li className="mb-2">Адрес: улица, город, страна</li>
+          <li className="mb-2">Адрес: street, city, country</li>
         </ul>
       </div>
       <div className="row mb-5">
