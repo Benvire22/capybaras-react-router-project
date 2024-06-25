@@ -5,8 +5,6 @@ import capybaraPhoto4 from "../../assets/img/capybara-pic-4.jpg";
 import capybaraPhoto5 from "../../assets/img/capybara-pic-5.jpg";
 import capybaraPhoto6 from "../../assets/img/capybara-pic-6.jpeg";
 
-import React from 'react';
-
 const About = () => {
     const imgStyle = 'col-3 rounded border border-warning';
     return (
@@ -16,8 +14,7 @@ const About = () => {
                 <div className="d-flex justify-content-center gap-5 my-4">
                     <img src={capybaraPhoto1} alt="Капибары на лужайке" className={imgStyle}/>
                     <img src={capybaraPhoto2} alt="Капибара и капибара поменьше" className={imgStyle}/>
-                    <img src={capybaraPhoto3}
-                         alt="маленькие капибары вокруг большой капибары" className={imgStyle}/>
+                    <img src={capybaraPhoto3} alt="маленькие капибары вокруг большой капибары" className={imgStyle}/>
                 </div>
                 <p className="mb-3">
                     <b>Капибара</b> или <b>водосвинка</b> (<i className="text-secondary-emphasis">Hydrochoerus
